@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-  origin: ["http://localhost:3000","http://192.168.1.148:3000"],
+  origin: ["http://localhost:3000","https://postventapp.vercel.app"],
   credentials: true,
 }));
 
